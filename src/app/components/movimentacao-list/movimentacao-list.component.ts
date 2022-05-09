@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MovimentacaoListComponent implements OnInit {
 
+  movimentacoes: any;
+
   constructor() { }
 
   ngOnInit(): void {
